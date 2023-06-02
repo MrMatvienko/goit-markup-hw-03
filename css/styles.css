@@ -126,7 +126,6 @@ ul {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
-  margin-bottom: 120px;
 }
 .hero-title {
   font-weight: 700;
@@ -162,10 +161,17 @@ ul {
 }
 /*----About us----*/
 .info {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 .info-list {
+  display: flex;
+  padding-left: auto;
 }
 .info-item {
+  width: calc((100% - 72px - 30px) / 4);
+  gap: 24px;
 }
 .info-subtitle {
   font-weight: 500;
@@ -173,6 +179,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .info-item-text {
   font-size: 16px;
